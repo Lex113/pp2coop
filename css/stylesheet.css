@@ -1,0 +1,53 @@
+body { padding-top: 70px; }
+
+#brand {
+    position:relative;
+    top:-20px;
+}
+
+#floorplan {
+    margin:auto;
+}
+
+#gallerycarousel {
+    height: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+#mainimage{
+    width:500px;
+    height:550px;
+}
+
+#menuup {
+    background-color: green;
+    color: white;
+}
+
+.thumbnail {
+    width: 250px;
+    height: 180px;
+}
+
+.transparent{
+    background: rgba(60, 63, 66, 0.1); 
+}
+
+@media only screen and (max-width: 768px) {
+    #mainimage {
+        margin:auto;
+        padding-bottom: 20px
+    }
+    }
+    
+@media only screen and (min-width: 768px){
+    #carouselgallery 
+        {
+        display:none;
+        }    
+}
+  
+    
